@@ -101,7 +101,7 @@
 					<artifactId>jmxri</artifactId>
 				</exclusion>
 			</exclusions>
-			<scope>runtime</scope>
+			
 		</dependency>
 
 		<!-- @Inject -->
@@ -141,9 +141,9 @@
 		
 		<!-- https://mvnrepository.com/artifact/com.zaxxer/HikariCP 추가-->
 		<dependency>
-		    <groupId>com.zaxxer</groupId>
-		    <artifactId>HikariCP</artifactId>
-		    <version>5.0.1</version>
+		  <groupId>com.zaxxer</groupId>
+		  <artifactId>HikariCP</artifactId>
+		  <version>2.7.8</version>
 		</dependency>
 		
 		<!-- https://mvnrepository.com/artifact/org.mybatis/mybatis추가 -->
